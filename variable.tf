@@ -1,6 +1,6 @@
 variable "region_name" {
   type    = string
-  default = "ap-northeast-2"
+  default = "us-west-2"
 }
 
 variable "vpc_cidr" {
@@ -20,10 +20,10 @@ variable "subnet2_cidr" {
 
 variable "az1" {
   type    = string
-  default = "ap-northeast-2a"
+  default = "us-west-2a"
 }
 
 variable "az2" {
   type    = string
-  default = "ap-northeast-2b"
+  default = "us-west-2b"
 }
